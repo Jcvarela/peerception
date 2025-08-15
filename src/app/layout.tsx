@@ -4,7 +4,7 @@ import type { ReactNode } from 'react';
 import ClientProviders from './ClientProviders';
 
 export const metadata: Metadata = {
-  title: 'FriendPrint',
+  title: 'MBTypaFriend',
   description: 'Social footprint of friendships',
 };
 
