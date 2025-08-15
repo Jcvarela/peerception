@@ -1,4 +1,4 @@
-# FriendPrint
+# MBTypaFriend
 
 A social app concept built with Next.js and TypeScript.
 
