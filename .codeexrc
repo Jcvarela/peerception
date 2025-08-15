@@ -1,0 +1,7 @@
+{
+  "instructions": [
+    "Use TypeScript strict mode, '@/...' imports, MUI Grid v2, Fluent UI v9, and .styles.ts for styling.",
+    "Each component has .tsx, .styles.ts, and .test.tsx.",
+    "Follow Conventional Commits and project lint/type/test/build rules."
+  ]
+}
