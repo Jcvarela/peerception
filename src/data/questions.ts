@@ -1,0 +1,23 @@
+import { Question } from '@/types/mbti';
+export const QUESTIONS: Question[] = [
+  { id:'q1', text:'Easily starts conversations with strangers.', axis:'EI', yesPole:'E' },
+  { id:'q2', text:'Recharges best with quiet alone time.', axis:'EI', yesPole:'I' },
+  { id:'q3', text:'Prefers concrete facts over theories.', axis:'SN', yesPole:'S' },
+  { id:'q4', text:'Enjoys imagining future possibilities.', axis:'SN', yesPole:'N' },
+  { id:'q5', text:'Decisions lean on objective logic.', axis:'TF', yesPole:'T' },
+  { id:'q6', text:'Prioritizes harmony and people impact.', axis:'TF', yesPole:'F' },
+  { id:'q7', text:'Loves plans, lists, and closure.', axis:'JP', yesPole:'J' },
+  { id:'q8', text:'Keeps options open and adapts.', axis:'JP', yesPole:'P' },
+  { id:'q9', text:'Enjoys being the center of attention.', axis:'EI', yesPole:'E' },
+  { id:'q10', text:'Needs time alone to recharge after social events.', axis:'EI', yesPole:'I' },
+  { id:'q11', text:'Feels energized by group activities.', axis:'EI', yesPole:'E' },
+  { id:'q12', text:'Trusts experience over intuition.', axis:'SN', yesPole:'S' },
+  { id:'q13', text:'Sees patterns and meanings beyond the obvious.', axis:'SN', yesPole:'N' },
+  { id:'q14', text:'Prefers hands-on tasks to theoretical ones.', axis:'SN', yesPole:'S' },
+  { id:'q15', text:'Values honesty over protecting feelings.', axis:'TF', yesPole:'T' },
+  { id:'q16', text:'Considers empathy essential in decisions.', axis:'TF', yesPole:'F' },
+  { id:'q17', text:'Believes good decisions come from objective analysis.', axis:'TF', yesPole:'T' },
+  { id:'q18', text:'Likes having a clear daily schedule.', axis:'JP', yesPole:'J' },
+  { id:'q19', text:'Spontaneously changes plans for fun.', axis:'JP', yesPole:'P' },
+  { id:'q20', text:'Finishes tasks well before the deadline.', axis:'JP', yesPole:'J' },
+];
