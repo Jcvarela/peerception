@@ -7,7 +7,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import { FluentProvider, webLightTheme, webDarkTheme } from '@fluentui/react-components';
 import { lightTheme, darkTheme } from '@/theme/theme';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'FriendPrint',
   description: 'Social footprint of friendships',
 };
