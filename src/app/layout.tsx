@@ -1,7 +1,9 @@
 import './globals.css';
+import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+import ClientProviders from './ClientProviders';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'FriendPrint',
   description: 'Social footprint of friendships',
 };
@@ -9,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ClientProviders>{children}</ClientProviders>
+      </body>
     </html>
   );
 }
