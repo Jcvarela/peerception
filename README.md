@@ -15,3 +15,7 @@ Run the development server:
 ```bash
 npm run dev
 ```
+
+## Development Standards
+
+See [Development Standards](./docs/standards.md) for project conventions and requirements.
