@@ -5,14 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
-    "test": "vitest run"
+    "export": "next export"
   },
   "dependencies": {
     "next": "^14.2.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "framer-motion": "^11.0.0"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "typescript": "^5.4.5",
@@ -23,7 +21,6 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.4.1",
     "eslint": "^8.57.0",
-    "eslint-config-next": "^14.2.4",
-    "vitest": "^1.4.0"
+    "eslint-config-next": "^14.2.4"
   }
 }
