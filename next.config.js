@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
-const isProjectPage = process.env.NEXT_PUBLIC_BASE_PATH && process.env.NEXT_PUBLIC_BASE_PATH !== '/';
+const isProd = process.env.NODE_ENV === 'production';
+const repo = 'peerception';
+
 const nextConfig = {
   output: 'export',
   images: { unoptimized: true },
-  // If deploying to a project page like username.github.io/repo, set NEXT_PUBLIC_BASE_PATH="/repo"
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  basePath: isProd ? `/${repo}` : '',
+  assetPrefix: isProd ? `/${repo}/` : '',
 };
+
 module.exports = nextConfig;
