@@ -21,7 +21,9 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ]
+      ],
+      "react-tinder-card": ["./src/external/react-tinder-card.tsx"],
+      "framer-motion": ["./src/external/framer-motion.tsx"]
     },
     "plugins": [
       {
