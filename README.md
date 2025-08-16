@@ -19,3 +19,14 @@ npm run dev
 ## Development Standards
 
 See [Development Standards](./docs/standards.md) for project conventions and requirements.
+
+## LoginForm Usage
+
+```tsx
+import { LoginForm } from '@/components/LoginForm/LoginForm';
+
+export default function Page() {
+  return <LoginForm />;
+}
+```
+
