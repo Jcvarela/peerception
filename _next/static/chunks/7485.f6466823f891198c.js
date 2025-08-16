@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7485],{87485:function(e,r,a){a.r(r),a.d(r,{cardExampleStyles:function(){return n}});let n=e=>({root:{padding:e.spacing(2),borderRadius:e.shape.borderRadius,backgroundColor:e.palette.background.paper},title:{margin:0}})}}]);
