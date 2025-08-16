@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import TinderCard from 'react-tinder-card';
+import TinderCard from "react-tinder-card";
 import { swipeCardsStyles } from './SwipeCards.styles';
 
 interface SwipeCardsProps {
